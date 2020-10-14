@@ -40,4 +40,10 @@ Per unit of risk, the data shows that the algo strategies outperform the benchma
 
 For the custom portfolio, I chose 3 tech stocks: Amazon, Facebook and Google. I compared a portfolio with each of these stocks equally weighted to the S&P 500, whale portfolios, and algo portfolio returns. Below is a summary of the results
 
-- 
+- My custom portfolio is riskier compared to all other portfolios, it has higher standard deviation than the rest of the portfolios.
+
+-My custom portfolio has the second highest sharpe ratio. The Algo 1 strategy has more return per unit of risk compared to my portfolio.
+
+-My custom portfolio is negatively correlated with the S&P 500 but positively correlated with the whale and algo portfolios.
+
+-For Beta, I used the TX 60 index as benchmark. My custom portfolio has a positive Beta which indicates that it generally moved in the same direction as the benchmark.
