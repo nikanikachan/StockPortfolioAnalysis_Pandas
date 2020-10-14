@@ -3,9 +3,9 @@
 
 ## Performance Analysis
 
-![Returns](https://ibb.co/Z1b69hs)
+![Returns](https://i.ibb.co/XkGZHzB/Returns.png)
 
-![Cumulative Returns](https://ibb.co/Ypt3hCv)
+![Cumulative Returns](https://i.ibb.co/72GXKf7/Cumulative-returns.png)
 
 
 Based on the plotted daily returns, it is not immediately obvious if any of the portfolios outperformed the S&P 500. However, if we look at the cumulative returns plot, It clearly shows that all portfolios outperformed the S&P 500.
