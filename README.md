@@ -12,9 +12,19 @@ Based on the plotted daily returns, it is not immediately obvious if any of the 
 
 ## Risk Analysis
 
-#### Box Plots
+![Box plot](https://i.ibb.co/Wcrxb1v/Boxplot.png)
 
 Tiger Global Management has the largest spread and the S&P 500 has the smallest spread. This seems to indicate that all of the managed portfolios are riskier than the benchmark.
+
+| Portfolio | Annualized Standard Deviation |
+| ------ | ----------- |
+| BERKSHIRE HATHAWAY INC   | 0.203682 |
+| TIGER GLOBAL MANAGEMENT LLC   | 0.171830 |
+| Algo 2   | 0.134401 |
+| S&P 500   |  0.129133 |
+| Algo 1   |  0.126801 |
+| SOROS FUND MANAGEMENT LLC   |  0.124487 |
+| PAULSON & CO.INC   |  0.110754 |
 
 
 
