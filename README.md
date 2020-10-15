@@ -12,6 +12,7 @@ Looking at the plot of each portfolio's daily returns, it is not immediately obv
 
 
 
+
 ## Risk Analysis
 
 The Box plot shows that Tiger Global Management has the largest spread and the S&P 500 has the smallest spread. 
@@ -29,6 +30,7 @@ Berkshire Hathaway, Tiger Global Mgt and Algo 2 portfolios have higher standard 
 | Algo 1   |  0.007988 |
 | SOROS FUND MANAGEMENT LLC   |  0.007842 |
 | PAULSON & CO.INC   |  0.006977 |
+
 
 
 
@@ -57,6 +59,9 @@ I looked at the beta of Soros Fund Mgt and it shows a low positive beta coeffici
 
 Per unit of risk, the data shows that the algo strategies outperform the benchmark. The Algo 1 portfolio has the highest Sharpe Ratio of 1.36, this algo portfolio outperformed both the whale portfolios and the S&P 500. The Algo 2 portfolio outperformed the S&P 500 and all the whale portfolios except for Berkshire Hathaway.
 
+![sharperatio](https://i.ibb.co/h7zZwjB/combinedsharpe.png)
+
+
 | Portfolio | Sharpe Ratio |
 | ------ | ----------- |
 | Algo 1   | 1.369589 |
@@ -69,15 +74,22 @@ Per unit of risk, the data shows that the algo strategies outperform the benchma
 
 
 
+
 ## Custom Portfolio
 
 For the custom portfolio, I chose 3 tech stocks: Amazon, Facebook and Google. I compared a portfolio with each of these stocks equally weighted to the S&P 500, whale portfolios, and algo portfolio returns. Below is a summary of the results:
 
 - My custom portfolio is riskier compared to all other portfolios, it has higher standard deviation than the rest of the portfolios.
 
+![allrollingsd](https://i.ibb.co/2nYGBjG/allrollingsd.png)
+
 - My custom portfolio has the second highest sharpe ratio. The Algo 1 strategy has more return per unit of risk compared to my portfolio.
 
+![allsharpe](https://i.ibb.co/PYVzCFr/allsharpe.png)
+
 - My custom portfolio is negatively correlated with the S&P 500 but positively correlated with the whale and algo portfolios.
+
+![allcorr](https://i.ibb.co/HXvjFxM/all-heatmap.png)
 
 - For Beta, I used the TX 60 index as benchmark. My custom portfolio has a positive Beta which indicates that it generally moved in the same direction as the benchmark.
 
